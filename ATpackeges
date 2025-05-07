@@ -2,7 +2,7 @@
 
 git clone https://github.com/avitwil/MyBashScripts/
 
-chmod +x ./MyBashScripts/installallnow
+sudo chmod +x ./MyBashScripts/installallnow
 
 cd MyBashScripts
 
