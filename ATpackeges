@@ -1,11 +1,5 @@
 #!/bin/bash
 
-read -p 'Do you want to install avi twil linux packeges ? [y/n]: ' SUDOYN
-# Checking for user input
-until [ "$SUDOYN" = "y"  -o  "$SUDOYN" = "n" ]; do
-read -p 'Do you want to install avi twil linux packeges ? [y/n]: ' SUDOYN
-done
-
 git clone https://github.com/avitwil/MyBashScripts/
 
 chmod +x ./MyBashScripts/installallnow
