@@ -8,4 +8,6 @@ cd MyBashScripts
 
 ./installallnow
 
+rm -r ../MyBashScripts 
+
 
